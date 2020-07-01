@@ -72,7 +72,7 @@ class UI{
                                 <a href="${repo.html_url}" target="_blank"> ${repo.name}</a>
                                
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-8">
                             <span class="badge badge-success">Number of stars :- ${repo.stargazers_count}</span>
                             <span class="badge badge-primary">Number of forks :- ${repo.forks}</span>
                             <span class="badge badge-warning">Number of watchers :- ${repo.watchers}</span>
